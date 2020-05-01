@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "CMU serif";
+    src: url(fonts/cmunrm.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "CMU serif";
+    src: url(fonts/cmunbx.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "CMU serif";
+    src: url(fonts/cmunsl.ttf);
+    font-style: italic;
+}
+
+:root {
+    --title-font-family:"CMU Serif";
+    --subtitle-font-family:var(--title-font-family);
+    --subsubtitle-font-family:var(--title-font-family);
+    --body-font-family:var(--title-font-family);
+
+    --title-font-size:25px;
+    --subtitle-font-size:16px;
+    --subsubtitle-font-size:16px;
+    --body-font-size:14px;
+}
+
+html {
+    max-width: 100%;
+    margin: auto;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+    font-family: var(--title-font-family);
+    font-size: var(--title-font-size);
+    text-align: center;
+    vertical-align: middle;
+}
+
+h2 {
+    font-family: var(--subtitle-font-family);
+    font-size: var(--subtitle-font-size);
+    text-align: center;
+    line-height: 0.5em;
+}
+
+h3 {
+    font-family: var(--subsubtitle-font-family);
+    font-size: var(--subsubtitle-font-size);
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+body {
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size);
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+h4 {
+    font-family: var(--subsubtitle-font-family);
+    font-size: 14px;
+    text-align: left;
+    font-style: italic;
+}
+
+hr {
+    border-top: 1px solid black;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+year {
+    position: absolute;
+    right: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+table {
+    margin: auto;  
+}
+
+#skills {
+    column-count: 2;
+}
