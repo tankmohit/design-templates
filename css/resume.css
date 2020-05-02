@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans|Inter|Lora|Hepta+Slab');
-
 :root {
-    --title-font-family:"Public Sans";
+    --title-font-family:"CMU Serif";
     --subtitle-font-family:var(--title-font-family);
     --subsubtitle-font-family:var(--title-font-family);
     --body-font-family:var(--title-font-family);
