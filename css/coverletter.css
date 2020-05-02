@@ -1,18 +1,18 @@
 @font-face {
     font-family: "CMU serif";
-    src: url(https://cdn.jsdelivr.net/gh/tankmohit/design-templates/fonts/cmunrm.ttf);
+    src: url("https://cdn.jsdelivr.net/gh/tankmohit/design-templates/fonts/cmunrm.ttf") type("ttf");
     font-weight: 500;
 }
 
 @font-face {
     font-family: "CMU serif";
-    src: url(https://cdn.jsdelivr.net/gh/tankmohit/design-templates/fonts/cmunbx.ttf);
+    src: url("https://cdn.jsdelivr.net/gh/tankmohit/design-templates/fonts/cmunbx.ttf") type("ttf");
     font-weight: 600;
 }
 
 @font-face {
     font-family: "CMU serif";
-    src: url(https://cdn.jsdelivr.net/gh/tankmohit/design-templates/fonts/cmunsl.ttf);
+    src: url("https://cdn.jsdelivr.net/gh/tankmohit/design-templates/fonts/cmunsl.ttf") type("ttf");
     font-style: italic;
 }
 
