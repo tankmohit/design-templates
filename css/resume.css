@@ -1,5 +1,4 @@
 :root {
-    --title-font-family:"CMU Serif";
     --subtitle-font-family:var(--title-font-family);
     --subsubtitle-font-family:var(--title-font-family);
     --body-font-family:var(--title-font-family);
